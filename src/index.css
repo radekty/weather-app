@@ -103,3 +103,56 @@ main {
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
   padding: 10px;
 }
+
+/* Responsywność dla temperatury */
+@media only screen and (max-height: 600px)  {
+  .weather-box .temperature {
+    font-size: 48px;
+  }
+
+  .weather-box .weather,
+  .weather-box .wind,
+  .weather-box .humidity,
+  .weather-box .pressure {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 280px)  {
+  .weather-box .temperature {
+    font-size: 48px;
+  }
+
+  .weather-box .weather,
+  .weather-box .wind,
+  .weather-box .humidity,
+  .weather-box .pressure {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 400px)  {
+  .weather-box .temperature {
+    font-size: 48px;
+  }
+
+  .weather-box .weather,
+  .weather-box .wind,
+  .weather-box .humidity,
+  .weather-box .pressure {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 540px)  {
+  .weather-box .temperature {
+    font-size: 50px;
+  }
+
+  .weather-box .weather,
+  .weather-box .wind,
+  .weather-box .humidity,
+  .weather-box .pressure {
+    font-size: 36px;
+  }
+}
